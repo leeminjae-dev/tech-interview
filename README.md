@@ -48,7 +48,7 @@
 
 ## 2. Network
 :arrow_forward: [답변 내용](/contents/network.md)
-* OSI 7계층
+* OSI 7계층 
 * TCP/IP의 개념
 * TCP와 UDP
 * TCP와 UDP의 헤더 분석
