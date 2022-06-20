@@ -48,10 +48,10 @@
 
 ## 2. Network
 :arrow_forward: [답변 내용](/contents/network.md)
-* OSI 7계층 (완료)
-* TCP/IP의 개념 (완료)
-* TCP와 UDP
-* TCP와 UDP의 헤더 분석
+* OSI 7계층 [완료](https://learnote-dev.com/cs/OSI-7-Layer-Model/)
+* TCP/IP의 개념 [완료](https://learnote-dev.com/cs/TCP-IP/)
+* TCP와 UDP [완료](https://learnote-dev.com/cs/TCP%EC%99%80-UDP/)
+* TCP와 UDP의 헤더 분석 [완료](https://learnote-dev.com/cs/TCP%EC%99%80-UDP/)
 * TCP의 3-way-handshake와 4-way-handshake
   * Q. TCP의 연결 설정 과정(3단계)과 연결 종료 과정(4단계)이 단계가 차이나는 이유?
   * Q. 만약 Server에서 FIN 플래그를 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN 패킷보다 늦게 도착하는 상황이 발생하면 어떻게 될까?
@@ -70,8 +70,8 @@
 
 ## 3. Operating System
 :arrow_forward: [답변 내용](/contents/os.md)
-* 프로세스와 스레드의 차이(Process vs Thread)
-* 멀티 프로세스 대신 멀티 스레드를 사용하는 이유
+* 프로세스와 스레드의 차이(Process vs Thread)[완료](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
+* 멀티 프로세스 대신 멀티 스레드를 사용하는 이유 [완료](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
 * Thread-safe
 * 동기화 객체의 종류
 * 뮤텍스와 세마포어의 차이
