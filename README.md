@@ -1,22 +1,5 @@
 # Tech Interview
 
-**기술 면접 대비를 위한 기본 개념을 정리하는 Repository 입니다.**
-> :star: 내용에 오류가 있거나 추가할 내용이 있다면 Pull Request를 통해서 알려주시면 감사하겠습니다.
-> <br> :star: Star나 Watching를 통한 많은 관심 부탁드립니다. :)
-
-<div align=center>
-
-[![author](https://img.shields.io/badge/author-WeareSoft-red.svg)](https://github.com/WeareSoft)
-[![HeeBlog](https://img.shields.io/badge/blog-Hee-lightgrey.svg)](https://gmlwjd9405.github.io/)
-[![DoyBlog](https://img.shields.io/badge/blog-Doy-lightgrey.svg)](https://doooyeon.github.io/)
-[![NesoyBlog](https://img.shields.io/badge/blog-Nesoy-lightgrey.svg)](https://nesoy.github.io/)
-[![DelfBlog](https://img.shields.io/badge/blog-Delf-lightgrey.svg)](https://delf-lee.github.io/)
-[![contributors](https://img.shields.io/badge/contributors-4-yellowgreen.svg)](https://github.com/WeareSoft/tech-interview/graphs/contributors)
-[![HitCount](http://hits.dwyl.io/WeareSoft/tech-interview.svg?style=popout)](http://hits.dwyl.io/WeareSoft/tech-interview)
-
-</div>
-
-
 **:book: Contents**
 1. [Data Structure](#1-data-structure)
 2. [Network](#2-network)
@@ -33,7 +16,6 @@
 ---
 
 ## 1. Data Structure
-:arrow_forward: [답변 내용](/contents/datastructure.md)
 * Array
 * LinkedList
 * HashTable
@@ -47,11 +29,10 @@
 * B+ Tree
 
 ## 2. Network
-:arrow_forward: [답변 내용](/contents/network.md)
 * OSI 7계층 [완료](https://learnote-dev.com/cs/OSI-7-Layer-Model/)
-* TCP/IP의 개념 [완료](https://learnote-dev.com/cs/TCP-IP/)
-* TCP와 UDP [완료](https://learnote-dev.com/cs/TCP%EC%99%80-UDP/)
-* TCP와 UDP의 헤더 분석 [완료](https://learnote-dev.com/cs/TCP%EC%99%80-UDP/)
+* TCP/IP의 개념 (완료)
+* TCP와 UDP
+* TCP와 UDP의 헤더 분석
 * TCP의 3-way-handshake와 4-way-handshake
   * Q. TCP의 연결 설정 과정(3단계)과 연결 종료 과정(4단계)이 단계가 차이나는 이유?
   * Q. 만약 Server에서 FIN 플래그를 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN 패킷보다 늦게 도착하는 상황이 발생하면 어떻게 될까?
@@ -69,9 +50,8 @@
 * Frame, Packet, Segment, Datagram
 
 ## 3. Operating System
-:arrow_forward: [답변 내용](/contents/os.md)
-* 프로세스와 스레드의 차이(Process vs Thread)[완료](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
-* 멀티 프로세스 대신 멀티 스레드를 사용하는 이유 [완료](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
+* 프로세스와 스레드의 차이(Process vs Thread)[완료](/contents/os.md)
+* 멀티 프로세스 대신 멀티 스레드를 사용하는 이유 (완료)
 * Thread-safe
 * 동기화 객체의 종류
 * 뮤텍스와 세마포어의 차이
@@ -88,7 +68,6 @@
 * Swapping
 
 ## 4. Database
-:arrow_forward: [답변 내용](/contents/db.md)
 * 데이터베이스 풀
 * 정규화(1차 2차 3차 BCNF)
 * 트랜잭션(Transaction) 이란
@@ -107,7 +86,6 @@
 * java JDBC
 
 ## 5. Design Pattern
-:arrow_forward: [답변 내용](/contents/designpattern.md)
 * 디자인 패턴의 개념과 종류
 * Singleton 패턴
 * Strategy 패턴
@@ -116,8 +94,6 @@
 * MVC1 패턴과 MVC2 패턴
 
 ## 6. Algorithm 
-### :pushpin: [관련 링크](https://github.com/WeareSoft/algorithm-study)
-:arrow_forward: [답변 내용](/contents/algorithm.md)
 * BigO
 * DFS와 BFS의 차이
 * Fibonacci에서의 세 가지(Recursion, Dynamic Programming, 반복) 방식에 대한 시간복잡도와 공간복잡도 차이
@@ -128,7 +104,6 @@
 * Prim MST 알고리즘
 
 ## 7. Java
-:arrow_forward: [답변 내용](/contents/java.md)
 * java 프로그래밍이란
 * Java SE와 Java EE 애플리케이션 차이
 * java와 c/c++의 차이점
@@ -166,7 +141,6 @@
 * Lambda란?
 
 ## 8. JavaScript
-:arrow_forward: [답변 내용](/contents/javascript.md)
 * JavaScript Event Loop
 * 함수 선언식과 함수 표현식
 * 화살표 함수(Arrow Function)
@@ -181,7 +155,6 @@
 * Async/Await
 
 ## 9. Spring
-:arrow_forward: [답변 내용](/contents/spring.md)
 * 스프링 프레임워크란
 * Spring, Spring MVC, Spring Boot의 차이
 * Bean이란
@@ -196,7 +169,6 @@
 * Filter와 Interceptor 차이
 
 ## 10. Security 
-:arrow_forward: [답변 내용](/contents/security.md)
 * 대칭키와 비대칭키 차이
 * 패스워드 암호화 방법 
 * SQL Injection 공격 
@@ -205,7 +177,6 @@
 * OAuth
 
 ## 11. ETC
-:arrow_forward: [답변 내용](/contents/etc.md)
 * TDD란
 * 웹 브라우저에서 서버로 어떤 페이지를 요청하면 일어나는 일련의 과정을 설명
   * Ex. url에 'www.naver.com' 을 입력했다. 일어나는 현상에 대해 아는대로 설명하라.
@@ -226,15 +197,3 @@
 * Mock이란
 
 ---
-
-# Reference
-* [jojoldu님의 junior-recruit-scheduler](https://github.com/jojoldu/junior-recruit-scheduler/blob/master/README.md)
-* [JaeYeopHan 님의 Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
-* [KimHunJin님의 Study-Book/interview](https://github.com/KimHunJin/Study-Book/tree/master/interview)
-* [TaeMInMoon님의 신입 개발자 기술면접](https://trello.com/b/BWtpfywH/%EC%8B%A0%EC%9E%85-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91)
-* [NESOY님의 Back-end-Developer-Interview-Questions](https://github.com/NESOY/Back-end-Developer-Interview-Questions)
-* [hanee24님의 신입 개발자 면접 질문](https://hanee24.github.io/2018/05/13/interview-questions/)
-* [“개발자 면접 예상 질문, 오픈소스로 공유해요”](http://www.bloter.net/archives/246472)
-* [150 Java Interview Questions and Answers](https://www.javacodegeeks.com/2014/04/java-interview-questions-and-answers.html#2)
-* [yangshun님의 front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook/blob/master/Translations/Korean/questions/javascript-questions.md)
-* [ganqqwerty님의 123-Essential-JavaScript-Interview-Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
