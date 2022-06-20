@@ -50,7 +50,7 @@
 * Frame, Packet, Segment, Datagram
 
 ## 3. Operating System
-* 프로세스와 스레드의 차이(Process vs Thread)[(완료) 게시물 링크](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
+* 프로세스와 스레드의 차이(Process vs Thread) [(완료) 게시물 링크](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
 * 멀티 프로세스 대신 멀티 스레드를 사용하는 이유 [(완료) 게시물 링크](https://learnote-dev.com/cs/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4/)
 * Thread-safe
 * 동기화 객체의 종류
