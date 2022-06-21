@@ -68,7 +68,7 @@
 * Swapping
 
 ## 4. Database
-* 데이터베이스 풀
+* 데이터베이스 풀 [(완료) 게시물 링크](https://learnote-dev.com/programmers/%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC/)
 * 정규화(1차 2차 3차 BCNF)
 * 트랜잭션(Transaction) 이란
 * 트랜잭션 격리 수준(Transaction Isolation Level)
